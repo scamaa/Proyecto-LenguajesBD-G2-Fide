@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>HotMart</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header th:replace="~{layout/plantilla :: header}"/>
+       
+        <section th:replace="~{producto/fragmentos :: editarProducto}"/>   
+            
+        <footer th:replace="~{layout/plantilla :: footer}"/>
+    </body>
+</html>
+
